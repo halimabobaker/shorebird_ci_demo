@@ -11,7 +11,7 @@ void main() {
     await tester.pumpAndSettle();
 
     // تحقق وجود العنوان
-    expect(find.text('Counter App'), findsOneWidget);
+    expect(find.text('Shorebird CI Demo'), findsOneWidget);
 
     // اضغط زر +
     await tester.tap(find.byIcon(Icons.add));
